@@ -1,0 +1,119 @@
+/*==============================================
+[Green color stylesheet green.css]
+
+Author:	SINDEVO.COM - Smart Internet Development
+Template:	Biotic - Mobile Web APP Template
+================================================*/
+
+/*===============================================*/
+/* MAIN COLOR */
+/*===============================================*/	
+a, blockquote span {
+color: #165F25;
+}
+a.button_full, a.button_small, .call_button a{
+background-color:#165F25; 
+}
+.logo h2{
+color:#393b09;
+}
+h2.page_title{
+border-bottom:3px #165F25 solid;
+}
+#loadMore img{
+background-color:#165F25;
+}
+#pages_maincontent h3{
+color:#165F25;
+}
+.post_date, #loadMore{
+color:#165F25;
+}
+.contactform input.form_submit, .loginform input.form_submit, .commentform input.form_submit{ 
+background-color:#165F25;
+}
+.ui-page-theme-b .ui-btn.ui-btn-active, html .ui-bar-b .ui-btn.ui-btn-active, html .ui-body-b .ui-btn.ui-btn-active, html body .ui-group-theme-b .ui-btn.ui-btn-active, html head + body .ui-btn.ui-btn-b.ui-btn-active, .ui-page-theme-b .ui-checkbox-on::after, html .ui-bar-b .ui-checkbox-on::after, html .ui-body-b .ui-checkbox-on::after, html body .ui-group-theme-b .ui-checkbox-on::after, .ui-btn.ui-checkbox-on.ui-btn-b::after, .ui-page-theme-b .ui-flipswitch-active, html .ui-bar-b .ui-flipswitch-active, html .ui-body-b .ui-flipswitch-active, html body .ui-group-theme-b .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-b.ui-flipswitch-active, .ui-page-theme-b .ui-slider-track .ui-btn-active, html .ui-bar-b .ui-slider-track .ui-btn-active, html .ui-body-b .ui-slider-track .ui-btn-active, html body .ui-group-theme-b .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-b .ui-btn-active {
+    background-color: #165F25;
+    border-color: #165F25;
+    color: #FFF;
+    text-shadow: 0px 1px 0px #165F25;
+}
+.slide_info{
+color:#165F25;
+}
+/* Page and overlay */
+.ui-overlay-a{
+background-color:#fff;
+}
+#homepage,
+#homepage .ui-panel-wrapper {
+	background-color:#27BA45;
+}
+.secondarypage,
+.secondarypage .ui-panel-wrapper {
+	background-color:#fff;
+}
+/* Navigation Links */
+.main-nav ul li:nth-child(1){
+background-color:#5DCB74;
+}
+.main-nav ul li:nth-child(2){
+background-color:#42C35C;
+}
+.main-nav ul li:nth-child(3){
+background-color:#22A33C;
+}
+.main-nav ul li:nth-child(4){
+background-color:#1D8B34;
+}
+.main-nav ul li:nth-child(5){
+background-color:#18742B;
+}
+.main-nav ul li:nth-child(6){
+background-color:#145D23;
+}
+.main-nav ul li:nth-child(7){
+background-color:#0F461A;
+}
+.main-nav ul li:nth-child(8){
+background-color:#0A2E11;
+}
+
+.main-nav ul li a, .main-nav ul li a:visited, .main-nav ul li a:hover{
+color:#fff;
+}
+/* Pages Header BG */
+.ui-bar-b,
+.ui-page-theme-b .ui-bar-inherit,
+html .ui-bar-b .ui-bar-inherit,
+html .ui-body-b .ui-bar-inherit,
+html body .ui-group-theme-b .ui-bar-inherit {
+	background-color: 	#27BA45 /*{b-bar-background-color}*/;
+	color: 					#165F25 /*{b-bar-color}*/;
+}
+/*===============================================*/
+/* LEFT AND RIGHT SLIDE PANEL */
+/*===============================================*/	
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+	background-color: 	#165F25 /*{b-body-background-color}*/;
+	color: 					#fff /*{b-body-color}*/;
+	text-shadow: none;
+}
+.user_details{
+background-color:#2B8B3E;
+}
+.user-nav ul li{
+border-bottom:1px #2B8B3E solid;
+}
+
+.green-escotur{
+	background-color: 	#27BA45;
+}
+.logo_container span{
+	color: #E4F6E8;
+}

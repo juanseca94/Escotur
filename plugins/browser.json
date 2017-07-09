@@ -1,0 +1,28 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.project.madiba"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "XXXXXXX",
+            "PACKAGE_NAME": "com.project.madiba"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.project.madiba"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.project.madiba"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.project.madiba"
+        }
+    },
+    "dependent_plugins": {}
+}
