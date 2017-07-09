@@ -8,87 +8,49 @@
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
 <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="images/apple-touch-startup-image-640x1096.png">
 <meta name="author" content="SINDEVO.COM" />
-<meta name="description" content="escotur - mobile and tablet web app template" />
+<meta name="description" content="biotic - mobile and tablet web app template" />
 <meta name="keywords" content="mobile css template, mobile html template, jquery mobile template, mobile app template, html5 mobile design, mobile design" />
-<title>Escotur - Empresa de transporte especial</title>
+<title>biotic - login</title>
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.css">
 <link type="text/css" rel="stylesheet" href="css/style.css" />
-<link type="text/css" rel="stylesheet" href="css/colors/green.css" />
+<link type="text/css" rel="stylesheet" href="css/colors/yellow.css" />
 <link type="text/css" rel="stylesheet" href="css/swipebox.css" />
 </head>
 <body>
 
-<div data-role="page" id="homepage" data-theme="b">
+<div data-role="page" id="login" class="secondarypage" data-theme="b" style="background-color: black">
+
 
     <div role="main" class="ui-content">
+    
+            <div class="content-block-login" style="margin-top: -50px">
 
-        <div class="logo_container">
-            <div class="logo">
-            <img src="images/logo.png" alt="escotur" title="escotur" width="90%" />
-            <span>Empresa de transporte</span>  
-            <br>
-            <span>especial</span>                        
-            </div>                     
-        </div>
-        <div class="slide_info">DESPLACE PARA NAVEGAR</div>
+                        <div class="logo_container">
+                            <div class="logo">
+                            <img src="images/logo.png" alt="escotur" title="escotur" width="90%" />                   
+                            </div>                     
+                        </div>
 
+                        <div class="loginform">
+                            <div class="form_logo" style="color:white">INICIAR SESIÓN</div>
+                            <form id="LoginForm" method="post">
+                                <input type="text" name="Username" value="" class="form_input required" placeholder="usuario" data-role="none" />
+                                <input type="password" name="Password" value="" class="form_input required" placeholder="contraseña" data-role="none" />
+                                <div class="forgot_pass"><a href="forgotpass.html" data-transition="slidedown">¿Olvido la contraseña?</a></div>
+                                <!-- <input type="submit" name="submit" class="form_submit" id="submit" data-role="none" value="SIGN IN" /> -->
+                                <input type="button" class="form_submit" id="submit" data-role="none" value="Entrar" style="background-color:#27BA45" onclick="location.href='home.html'" />
+                            </form>
+                            
+                            <div class="signup_bottom">
+                            <p style="color:white">¿No tiene cuenta?</p>
+                            <a href="modulos/register.html" data-transition="slidedown">Registrarse</a>
+                            </div>
+                        
+                        </div>
+            </div>
     </div><!-- /content -->
 
-    <div data-role="panel" id="left-panel" data-display="reveal" data-position="left">
-
-              <nav class="main-nav">
-                <ul>
-                  <li><a href="login.html" data-transition="slidedown"><img src="images/icons/white/lock.png" alt="" title="" /><span>Login</span></a></li>
-                  <li><a href="modulos/about.html" data-transition="slidefade"><img src="images/icons/white/team.png" alt="" title="" /><span>Nosotros</span></a></li>
-                  <li><a href="modulos/features.html" data-transition="slidefade"><img src="images/icons/white/settings.png" alt="" title="" /><span>Servicios</span></a></li>
-                  <li><a href="tel:3147582842" class="external"><img src="images/icons/white/phone.png" alt="" title="" /><span>Contáctanos</span></a></li>
-                  <li><a href="modulos/contact.html" data-transition="slidefade"><img src="images/icons/white/contact.png" alt="" title="" /><span>Escotur</span></a></li>
-                  <li><a href="#" data-transition="slidefade"><img src="images/icons/white/blog.png" alt="" title="" /><span>Blog</span></a></li>
-                  <li><a href="#" data-transition="slidefade"><img src="images/icons/white/photos.png" alt="" title="" /><span>Fotos</span></a></li>
-                  <li><a href="#" data-transition="slidefade"><img src="images/icons/white/video.png" alt="" title="" /><span>Videos</span></a></li>
-
-                  <!-- <li><a href="about.html" data-transition="slidefade"><img src="images/icons/white/team.png" alt="" title="" /><span>About</span></a></li>
-                  <li><a href="features.html" data-transition="slidefade"><img src="images/icons/white/settings.png" alt="" title="" /><span>Features</span></a></li>
-                  <li><a href="blog.html" data-transition="slidefade"><img src="images/icons/white/blog.png" alt="" title="" /><span>Blog</span></a></li>
-                  <li><a href="photos.html" data-transition="slidefade"><img src="images/icons/white/photos.png" alt="" title="" /><span>Photos</span></a></li>
-                  <li><a href="videos.html" data-transition="slidefade"><img src="images/icons/white/video.png" alt="" title="" /><span>Videos</span></a></li>
-                  <li><a href="login.html" data-transition="slidedown"><img src="images/icons/white/lock.png" alt="" title="" /><span>Login</span></a></li>
-                  <li><a href="#right-panel"><img src="images/icons/white/user.png" alt="" title="" /><span>Account</span></a></li>
-                  <li><a href="#" data-transition="slidefade"><img src="images/icons/white/heart.png" alt="" title="" /><span>Social</span></a></li>
-                  <li><a href="tel:1234 5678" class="external"><img src="images/icons/white/phone.png" alt="" title="" /><span>Llámanos</span></a></li>
-                  <li><a href="contact.html" data-transition="slidefade"><img src="images/icons/white/contact.png" alt="" title="" /><span>Contáctanos</span></a></li> -->
-                </ul>
-              </nav> 
-
-    </div><!-- /panel -->
-
-    <div data-role="panel" id="right-panel" data-display="reveal" data-position="right">
-    
-          <div class="user_login_info">
-          
-                    <div class="user_thumb_container">
-                        <div class="user_thumb">
-                          <img src="images/user.png" alt="" title="" />     
-                        </div>  
-                    </div>
-                    
-                    <div class="user_details">
-                      <p>Juan Sebastian Castro</p>
-                    </div>  
- 
-
-                   <nav class="user-nav">
-                        <ul>
-                          <li><a href="modulos/features.html"><img src="images/icons/white/settings.png" alt="" title="" /><span>Configuración</span></a></li>
-                          <li><a href="modulos/features.html"><img src="images/icons/white/briefcase.png" alt="" title="" /><span>Cuenta</span></a></li>
-                          <li><a href="modulos/features.html"><img src="images/icons/white/message.png" alt="" title="" /><span>Mensajes</span><strong class="green-escotur">12</strong></a></li>
-                          <li><a href="login.html"><img src="images/icons/white/lock.png" alt="" title="" /><span>Cerrar Sesión</span></a></li>
-                        </ul>
-                   </nav>
-          </div>
-          
-    </div><!-- /panel -->
 
 </div><!-- /page -->
 <script src="js/jquery.min.js"></script>
@@ -97,28 +59,5 @@
 <script type="text/javascript" src="js/email.js"></script>
 <script type="text/javascript" src="js/jquery.swipebox.js"></script>
 <script src="js/jquery.mobile-custom.js"></script>
-
-<script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-
-        $( document ).bind( "mobileinit", function() {
-            $.mobile.allowCrossDomainPages = true;
-        });
-
-        $(document).on('ready',function(){    
-            var inputIP = true;
-            $('#configIP').on("click",function(){ 
-                if (inputIP) {
-                    $("#ip").css("display","block");
-                    inputIP = false;
-                }else{
-                    $("#ip").css("display","none");
-                    inputIP = true;
-                }
-            });
-        });
-    </script>
 </body>
 </html>

@@ -19,32 +19,35 @@
 </head>
 <body>
 
-<div data-role="page" id="login" class="secondarypage" data-theme="b">
+<div data-role="page" id="login" class="secondarypage" data-theme="b" style="background-color: black">
 
 
     <div role="main" class="ui-content">
     
-            <div class="content-block-login">
-            
-                    	<div class="form_logo">LOGIN</div>
-                        
+            <div class="content-block-login" style="margin-top: -50px">
+
+                        <div class="logo_container">
+                            <div class="logo">
+                            <img src="images/logo.png" alt="escotur" title="escotur" width="90%" />                   
+                            </div>                     
+                        </div>
+
                         <div class="loginform">
-                        
+                            <div class="form_logo" style="color:white">INICIAR SESIÓN</div>
                             <form id="LoginForm" method="post">
-                            <input type="text" name="Username" value="" class="form_input required" placeholder="username" data-role="none" />
-                            <input type="password" name="Password" value="" class="form_input required" placeholder="password" data-role="none" />
-                            <div class="forgot_pass"><a href="forgotpass.html" data-transition="slidedown">Forgot Password?</a></div>
-                            <input type="submit" name="submit" class="form_submit" id="submit" data-role="none" value="SIGN IN" />
+                                <input type="text" name="Username" value="" class="form_input required" placeholder="usuario" data-role="none" />
+                                <input type="password" name="Password" value="" class="form_input required" placeholder="contraseña" data-role="none" />
+                                <div class="forgot_pass"><a href="forgotpass.html" data-transition="slidedown">¿Olvido la contraseña?</a></div>
+                                <!-- <input type="submit" name="submit" class="form_submit" id="submit" data-role="none" value="SIGN IN" /> -->
+                                <input type="button" class="form_submit" id="submit" data-role="none" value="Entrar" style="background-color:#27BA45" onclick="location.href='home.html'" />
                             </form>
                             
                             <div class="signup_bottom">
-                            <p>Don't have an account?</p>
-                            <a href="modulos/register.html" data-transition="slidedown">SIGN UP</a>
+                            <p style="color:white">¿No tiene cuenta?</p>
+                            <a href="modulos/register.html" data-transition="slidedown">Registrarse</a>
                             </div>
                         
                         </div>
-                    
-                    <div class="close_loginpopup_button"><a href="#" data-rel="back"><img src="images/icons/black/menu_close.png" alt="" title="" /></a></div>
             </div>
     </div><!-- /content -->
 
