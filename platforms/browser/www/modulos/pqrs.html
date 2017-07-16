@@ -10,7 +10,7 @@
 <meta name="author" content="SINDEVO.COM" />
 <meta name="description" content="Escotur - mobile and tablet web app template" />
 <meta name="keywords" content="mobile css template, mobile html template, jquery mobile template, mobile app template, html5 mobile design, mobile design" />
-<title>Escotur - photos</title>
+<title>Escotur - contáctenos</title>
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../css/themes/default/jquery.mobile-1.4.5.css">
 <link type="text/css" rel="stylesheet" href="../css/style.css" />
@@ -19,7 +19,7 @@
 </head>
 <body>
 
-<div data-role="page" id="photos" class="secondarypage" data-theme="b">
+<div data-role="page" id="contact" class="secondarypage" data-theme="b">
 
     <div data-role="header" data-position="fixed">
         <div class="nav_left_button"><a href="#" class="nav-toggle"><span></span></a></div>
@@ -29,34 +29,38 @@
     </div><!-- /header -->
 
     <div role="main" class="ui-content">
-    
-       <div class="pages_maincontent">
-              <h2 class="page_title">Fotos</h2> 
-              <div class="page_content"> 
-    
-             <ul id="photoslist" class="photo_gallery_13">
-                <li><a rel="gallery-1" href="../images/photos/photo1.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo1.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo2.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo2.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo3.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo3.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo4.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo4.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo5.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo5.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo6.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo6.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo7.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo7.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo8.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo8.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo9.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo9.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo10.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo10.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo11.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo11.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo12.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo12.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo13.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo13.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo14.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo14.jpg" alt="image"/></a></li>
-                <li><a rel="gallery-1" href="../images/photos/photo15.jpg" title="Photo title" class="swipebox"><img src="../images/photos/photo15.jpg" alt="image"/></a></li>
-               <div class="clear"></div>
-              </ul> 
-              
-              
-              </div>
-      </div>        
 
+       <div class="pages_maincontent">
+              <h2 class="page_title">PQRS</h2> 
+              <div class="page_content"> 
+
+                    <h2 id="Note"></h2>
+                    <div class="contactform">
+                    <form class="cmxform" id="ContactForm" method="post" action="">
+                      <label>Fecha:</label>
+                      <input type="text" name="ContactDate" id="ContactDate" value="" class="form_input required" data-role="none" />
+                      <label>Nombre:</label>
+                      <input type="text" name="ContactName" id="ContactName" value="" class="form_input required" data-role="none" />
+                      <label>Tipo de documento:</label>
+                      <input type="text" name="ContactTpDoc" id="ContactTpDoc" value="" class="form_input required" data-role="none" />
+                      <label>Documento:</label>
+                      <input type="text" name="ContactDoc" id="ContactDoc" value="" class="form_input required" data-role="none" />
+                      <label>Correo:</label>
+                      <input type="text" name="ContactEmail" id="ContactEmail" value="" class="form_input required email" data-role="none" />
+                      <label>Celular:</label>
+                      <input type="text" name="ContactCel" id="ContactCel" value="" class="form_input required" data-role="none" />
+                      <label>Tipo PQRS:</label>
+                      <input type="text" name="ContactPqrs" id="ContactPqrs" value="" class="form_input required" data-role="none" />
+                      <label>Descripción:</label>
+                      <textarea name="ContactComment" id="ContactComment" class="form_textarea textarea required" rows="" cols="" data-role="none"></textarea>
+                      <input type="submit" name="submit" class="form_submit" id="submit" data-role="none" value="Enviar" />
+                      <input class="" type="hidden" name="to"  value="youremail@yourwebsite.com" />
+                      <input class="" type="hidden" name="subject" value="Contacf form message" />
+                      <label id="loader" style="display:none;"><img src="../images/loader.gif" alt="Loading..." id="LoadingGraphic" /></label>
+                    </form>
+                    </div>
+              </div>
+       </div>
     </div><!-- /content -->
 
     <div data-role="panel" id="left-panel" data-display="reveal" data-position="left">
@@ -111,4 +115,3 @@
 <script src="../js/jquery.mobile-custom.js"></script>
 </body>
 </html>
-
